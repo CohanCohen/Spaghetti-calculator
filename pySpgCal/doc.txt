@@ -1,4 +1,4 @@
-Author Ilia Varnasseri G.
+
 This applet is a tool for general purpose
 calculations and demonstrations such as :
 evaluating expressions, function analysis
