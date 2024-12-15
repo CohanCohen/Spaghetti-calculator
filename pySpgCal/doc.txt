@@ -1,0 +1,68 @@
+Author Ilia Varnasseri G.
+This applet is a tool for general purpose
+calculations and demonstrations such as :
+evaluating expressions, function analysis
+, graphing functions, interpolation etc.
+type as below to execute the desired fun-
+ction:
+_________________________________________
+eval <expression> 
+used to evaluate expression. to access
+pi use <pi> and to access e, use E.
+_________________________________________
+let <fname>(<varname>)=<expression>
+
+used to define a function.
+note that use of local variables is not
+permitted in function definition.
+_________________________________________
+var <varname> <expression>
+
+used to define a variable named <varname>
+as <expression>
+_________________________________________
+drvt <var> <expr1> <expr2>
+
+used to evaluate the derivative of <expr1>
+with respect to <var> at the value of
+<expr2>
+_________________________________________
+int <var> <expr1> <st> <fn>
+
+used to evaluate the integral of <expr1>
+with respect to <var> from <st> to <fn>
+_________________________________________
+graph <expr> <st> <fn>
+
+used to display the graph of <expr> with 
+"x" ranging from <st> to <fn>. 
+note : the only variable in <expr> shall 
+be named "x".
+_________________________________________
+setpl <fname>(<varname>)=<polynomial>
+
+used to define a polynomial.
+note that use of local variables is not
+permitted in polynomial definition.
+_________________________________________
+-pm 
+
+used to activate polynomial mode.
+_________________________________________
+mul <pname> <p1> <p2> ...
+
+used to multiply p1, p2, ... and store in
+<pname>. Only accessible with polynomial
+mode activated.
+_________________________________________
+add <pname> <p1> <p2> ...
+
+used to add p1, p2, ... and store in
+<pname>. Only accessible with polynomial
+mode activated.
+_________________________________________
+rt <pname>
+
+used to find the roots of <pname>.Only a-
+cessible with polynomial mode activated.
+_________________________________________
